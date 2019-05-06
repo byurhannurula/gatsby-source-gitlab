@@ -35,7 +35,7 @@ To see all possible queries please use the GraphiQL editor which is available un
 
 ```graphql
 query {
-  allGitlabRepositories {
+  allGitlabProjects {
     edges {
       node {
         id
