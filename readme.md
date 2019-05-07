@@ -86,26 +86,22 @@ query {
 
 ```graphql
 query {
-  allGitlabUser {
-    edges {
-      node {
-        id
-        name
-        email
-        username
-        bio
-        state
-        avatar
-        location
-        website
-        profile_url
-        organization
-        socialMedia {
-          skype
-          twitter
-          linkedin
-        }
-      }
+  gitlabUser {
+    id
+    name
+    email
+    username
+    bio
+    state
+    avatar
+    location
+    website
+    profile_url
+    organization
+    socialMedia {
+      skype
+      twitter
+      linkedin
     }
   }
 }
