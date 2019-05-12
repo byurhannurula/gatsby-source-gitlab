@@ -2,7 +2,8 @@
 > Gatsby.js source plugin for loading information from GitLab
 
 Learn more about [Gatsby](https://www.gatsbyjs.org/) and its plugins here: [https://www.gatsbyjs.org/docs/plugins/](https://www.gatsbyjs.org/docs/plugins/) <br />
-*Live example site coming soon!*
+
+See it live on the [example site](https://gl-example.byurhanbeyzat.com/)! [Source Code](https://github.com/byurhanbeyzat/gatsby-source-gitlab-example) for the example site.
 
 ## Install
 
