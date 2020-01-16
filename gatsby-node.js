@@ -11,7 +11,7 @@ exports.sourceNodes = async ({ actions: { createNode } }, configOptions) => {
   });
 
   const user = await api.Users.current();
-  const projects = await api.Projects.all({ owned: true, visibility: 'public' });
+  const projects = await api.Projects.all({ owned: true });
 
   projects.map(async project => {
     const jsonString = JSON.stringify(project);

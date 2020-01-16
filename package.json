@@ -1,5 +1,5 @@
 {
-  "version": "1.0.2",
+  "version": "1.0.3",
   "name": "gatsby-source-gitlab",
   "description": "Gatsby source plugin for loading data from GitLab.",
   "author": "Byurhan Beyzat <byurhanbeyzat@gmail.com>",
